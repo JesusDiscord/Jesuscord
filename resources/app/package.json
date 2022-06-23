@@ -1,0 +1,19 @@
+{
+  "name": "Justicecord",
+  "version": "0.1",
+  "description": "A simple - stereo customizable - Discord Client.",
+  "main": "dist/index.js",
+  "author": "Iheb",
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "glasstron": "0.0.4",
+    "mkdirp": "^1.0.4",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "rimraf": "^3.0.2",
+    "tmp": "^0.2.1",
+    "yauzl": "^2.10.0"
+  },
+  "private": true
+}

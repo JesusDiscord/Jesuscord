@@ -1,0 +1,1 @@
+const native=require("./discord_media_"+process.platform+".node");module.exports={getSystemAnalyticsBlob:()=>new Promise(e=>native.getSystemAnalyticsBlob(e))};

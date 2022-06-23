@@ -1,0 +1,1 @@
+"use strict";let hasInit=!1;exports.init=function(t){if(hasInit)throw new Error("bootstrapModules has already init");for(const s of Object.keys(t))exports[s]=t[s];hasInit=!0};

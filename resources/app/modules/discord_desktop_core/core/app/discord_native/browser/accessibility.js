@@ -1,0 +1,1 @@
+"use strict";const electron=require("electron"),{ACCESSIBILITY_GET_ENABLED:ACCESSIBILITY_GET_ENABLED}=require("../common/constants").IPCEvents;electron.ipcMain.handle(ACCESSIBILITY_GET_ENABLED,async e=>electron.app.accessibilitySupportEnabled);

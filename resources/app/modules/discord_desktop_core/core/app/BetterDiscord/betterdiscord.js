@@ -1,0 +1,1 @@
+const electron=require("electron"),{useShim:useShim}=require("./patchNotifications"),appSettings=window.Lightcord.Api.settings;module.exports={NotificationsUseShim:e=>{"boolean"==typeof e&&(appSettings.set("DEFAULT_NOTIFICATIONS",!e),appSettings.save(),useShim(e))}};

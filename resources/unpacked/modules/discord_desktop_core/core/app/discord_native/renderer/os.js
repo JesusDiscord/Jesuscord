@@ -1,0 +1,1 @@
+"use strict";const os=require("os"),process=require("process");let arch=os.arch();"win32"===process.platform&&null!=process.env.PROCESSOR_ARCHITEW6432&&(arch="x64"),module.exports={release:os.release(),arch:arch};

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getElectronMajorVersion=getElectronMajorVersion;const process=require("process");function getElectronMajorVersion(){return null!=process.versions.electron?parseInt(process.versions.electron.split(".")[0]):0}

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.init=init,exports.getFeatures=getFeatures;var _FeatureFlags=_interopRequireDefault(require("../common/FeatureFlags"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}let features;function init(){features=new _FeatureFlags.default}function getFeatures(){return features}

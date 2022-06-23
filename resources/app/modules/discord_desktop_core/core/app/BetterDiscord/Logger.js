@@ -1,0 +1,1 @@
+const{EventEmitter:EventEmitter}=require("events");class Logger extends EventEmitter{constructor(e){super(),this.name=e}log(...e){console.log("%c["+this.name+"]","\n  font-weight: bold;\n  color: purple;\n",...e)}warn(...e){console.warn("%c["+this.name+"]","\n  font-weight: bold;\n  color: purple;\n",...e)}}module.exports=Logger,module.exports.default=Logger;
